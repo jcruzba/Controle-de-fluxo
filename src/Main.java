@@ -2,7 +2,9 @@
  * Classe de exemplo para o exercicio da aula de
  * controle de fluxo.
  * Criar um simples projeto usando if e switch. Com if exiba o nome do mês do ano de acordo
- * com seu numero. Evite o efeito "flecha". Faça também  outro if  que verifique se o mês é julho,
+ * com seu numero. Evite o efeito "flecha". Usando swtich onde o dia da semana escolhido exibi o numero correspondente, se não, dia inválido. 
+ * Outros exercicios usando swicht onde 1,2 e 3 exibi "certo, exibi "errado", 5 exibi "talvez"e 5 "valor indefinido".
+ * Por ultimo use switch usando String, swtich que verifique se o mês é julho,
  * dezembro ou janeiro, para assim exibir o texto "férias".
  */
 
@@ -105,7 +107,6 @@ public class Main {
 
     }
 
-
     private static void switchNumero() {
         int numero = 5;
         switch (numero) {
@@ -129,7 +130,6 @@ public class Main {
         }
 
     }
-
 
     private static void switchFerias(){
 
