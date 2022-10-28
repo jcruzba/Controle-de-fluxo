@@ -142,7 +142,7 @@ public class Main {
                 System.out.println("Férias ");
                 break;
             default:
-                System.out.println("Valor indefinido");
+                System.out.println("Mês de trabalho");
                 break;
 
 
